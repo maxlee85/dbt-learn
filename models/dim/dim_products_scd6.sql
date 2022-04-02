@@ -1,3 +1,7 @@
+/*
+Type 6 = combination of 1, 2 and 3. Keep the number of rows but add in effective dates,
+current indicators, the current and past values.
+*/
 WITH products AS (
     SELECT
       product_id,

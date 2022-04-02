@@ -1,3 +1,6 @@
+/*
+Type 1 = overwrite, use just the latest data
+*/
 WITH products AS (
     SELECT
       product_id,
