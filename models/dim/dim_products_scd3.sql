@@ -1,3 +1,6 @@
+/*
+Type 3 = add additional columns to show most recent data and 1 entry prior
+*/
 WITH products AS (
     SELECT
       product_id,

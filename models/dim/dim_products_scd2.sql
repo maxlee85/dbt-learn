@@ -1,3 +1,6 @@
+/*
+Type 2 = add new rows with effective dates and active indicator
+*/
 WITH products AS (
     SELECT
       product_id,
