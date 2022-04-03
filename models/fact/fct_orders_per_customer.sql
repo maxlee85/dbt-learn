@@ -5,7 +5,7 @@ WITH customer_orders AS (
         MAX(order_date) AS most_recent_order_date,
         COUNT(order_id) AS number_of_orders
     FROM
-        {{ ref('fct_orders') }}
+        {{ ref('fct_orders_type2') }}
     GROUP BY
         customer_id
 )

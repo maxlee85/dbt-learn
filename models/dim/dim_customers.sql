@@ -1,4 +1,5 @@
 SELECT
+    ROW_NUMBER() OVER (ORDER BY id) AS customer_key,
     id AS customer_id,
     first_name,
     last_name
