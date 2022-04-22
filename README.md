@@ -8,4 +8,5 @@
 
 #### Table definitions
 | Table | Use Case |
-|||
+| - | - |
+| dim_products_scd1 | Type 1 dimension |
