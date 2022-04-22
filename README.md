@@ -1,10 +1,14 @@
 ### This is my practice repo for dbt.
 
-#### I followed the instructions [here](https://docs.getdbt.com/tutorial/setting-up) using BigQuery. 
+#### I followed the instructions [here](https://docs.getdbt.com/tutorial/setting-up) using BigQuery.
 
-#### The schemas present are: 
+#### The schemas present are:
 - dbt_max: contains fct and dim tables
 - dbt_max_seeds: dummy data used to build my models
+
+#### How to use:
+If using fct_orders_type2, join product_key to dim_products_scd2.
+If using fct_orders_type4, join product_key to dim_products_scd4 and product_color_key to dim_product_colors.
 
 #### Table definitions
 | Table | Use Case |
@@ -21,3 +25,4 @@
 #### dbt Commands
 Run single model
 - dbt run --select dim_products_scd4 (filename)
+- dbt seed --select orders (filename)
