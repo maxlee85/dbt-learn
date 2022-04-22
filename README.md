@@ -17,3 +17,7 @@
 | dim_products_scd6 | Product dimension table (Type 6) - Combination of 1,2 and 3 |
 | fct_orders_per_customer | DO NOT USE |
 | fct_orders_type2 | Orders fact table using type 2 product dimension |
+
+#### dbt Commands
+Run single model
+- dbt run --select dim_products_scd4 (filename)
