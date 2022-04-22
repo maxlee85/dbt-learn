@@ -2,6 +2,6 @@
 
 #### I followed the instructions [here](https://docs.getdbt.com/tutorial/setting-up) using BigQuery. 
 
-The schemas present are: 
+#### The schemas present are: 
 - dbt_max: contains fct and dim tables
 - dbt_max_seeds: dummy data used to build my models
