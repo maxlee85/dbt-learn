@@ -1,6 +1,6 @@
 ### This is my practice repo for dbt.
 
-## I followed the instructions [here](https://docs.getdbt.com/tutorial/setting-up) using BigQuery. 
+#### I followed the instructions [here](https://docs.getdbt.com/tutorial/setting-up) using BigQuery. 
 
 The schemas present are: 
 - dbt_max: contains fct and dim tables
