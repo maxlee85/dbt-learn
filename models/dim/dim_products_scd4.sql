@@ -20,3 +20,13 @@ SELECT
     size
 FROM
     products
+
+UNION ALL
+
+SELECT
+    key,
+    null,
+    key_value,
+    key_value
+FROM
+    {{ ref('dimensions') }}

@@ -23,3 +23,17 @@ SELECT
     CASE WHEN date_expire = '2099-01-01' THEN TRUE ELSE FALSE END is_active
 FROM
     products
+
+UNION ALL
+
+SELECT
+    key,
+    null,
+    key_value,
+    key_value,
+    key_value,
+    null,
+    null,
+    null
+FROM
+    {{ ref('dimensions') }}

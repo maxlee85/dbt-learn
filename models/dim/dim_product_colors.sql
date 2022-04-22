@@ -14,3 +14,11 @@ SELECT 6 AS product_color_key, 'white' AS color UNION ALL
 SELECT 7 AS product_color_key, 'red' AS color UNION ALL
 SELECT 8 AS product_color_key, 'purple' AS color UNION ALL
 SELECT 9 AS product_color_key, 'brown' AS color
+
+UNION ALL
+
+SELECT
+    key,
+    key_value
+FROM
+    {{ ref('dimensions') }}

@@ -21,9 +21,21 @@ SELECT
     color,
     previous_color,
     size,
-    previous_size,
-    date_start
+    previous_size
 FROM
     products
 WHERE
     ranking = 1
+
+UNION ALL
+
+SELECT
+    key,
+    null,
+    key_value,
+    key_value,
+    key_value,
+    key_value,
+    key_value
+FROM
+    {{ ref('dimensions') }}
