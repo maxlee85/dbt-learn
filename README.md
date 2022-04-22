@@ -1,4 +1,6 @@
-Welcome to your new dbt project!
+This is my practice repo for dbt.
+
+I followed the instructions [here](https://docs.getdbt.com/tutorial/setting-up) using BigQuery. The schemas are dbt_max and dbt_max_seeds.
 
 ### Using the starter project
 
