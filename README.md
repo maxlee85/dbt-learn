@@ -15,5 +15,5 @@
 | dim_products_scd3 | Product dimension table (Type 3) - Add new columns |
 | dim_products_scd4 | Product dimension table (Type 4) - Rapidly changing/mini dimension |
 | dim_products_scd6 | Product dimension table (Type 6) - Combination of 1,2 and 3 |
-| dim_products_scd1 | Type 1 dimension |
-| dim_products_scd1 | Type 1 dimension |
+| fct_orders_per_customer | DO NOT USE |
+| fct_orders_type2 | Orders fact table using type 2 product dimension |
