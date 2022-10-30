@@ -26,3 +26,7 @@ If using fct_orders_type4, join product_key to dim_products_scd4 and product_col
 Run single model
 - dbt run --select dim_products_scd4 (filename)
 - dbt seed --select orders (filename)
+
+#### Common fact tables
+Retail (transaction)
+<img width="655" alt="image" src="https://user-images.githubusercontent.com/77996369/198893291-7a495d06-50d7-4209-b2cd-e02093c19977.png">
