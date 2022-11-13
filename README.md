@@ -32,10 +32,10 @@ transactional fact table (retail)
 - A transaction fact table is as described. For example, in a sales example, every transaction recorded at the point of sale.
 <img width="655" alt="image" src="https://user-images.githubusercontent.com/77996369/198893291-7a495d06-50d7-4209-b2cd-e02093c19977.png">
 ##### factless fact table (retail)
-- A factless fact table does not contain any facts but instead represents all the potential possibilities. This can be used to calculate the products on promotion that were not sold.
+A factless fact table does not contain any facts but instead represents all the potential possibilities. This can be used to calculate the products on promotion that were not sold.
 <img width="657" alt="image" src="https://user-images.githubusercontent.com/77996369/201542914-ed97d5bd-8ede-4832-a9a0-ee3e84502471.png">
 ##### periodic snapshot (inventory management)
-- A table that provides insight into how much inventory is present at the start of everyday
+A table that provides insight into how much inventory is present at the start of everyday
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/77996369/201543405-81a75e66-5ccd-4a8b-aa01-76027fae91f1.png">
 - In this model there is the introduction of semi additive facts. You cannot SUM(quantity_on_hand) to get the total number of products present.
 ###### a transactional fact table can also be used in invetory management where each row in the table represents the movement of an item in the inventory
