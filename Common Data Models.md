@@ -18,6 +18,9 @@
 #### a quick recap of the types of fact tables and when to use them
 - <img width="664" alt="image" src="https://user-images.githubusercontent.com/77996369/201543770-a797364d-9b39-4925-918c-a2337c652b85.png">
 - transaction - 1 row per action that occurred
+  - for releated by not identical transactions should a single fact table be used or multiple?
+    - will it be too much work to conform columns from each transaction?
+    - will each fact have a seperate set of dimensions?
 - periodic snapshot - a view of the business process at a point in time
 - accumulating snapshot - for processes that have a definitive start and end with milestones in between
 - note that these tables need to be used in conjunction to paint a complete picture of a business. ie a periodic snapshot can point out the health of a business at a point in time but the transactional table will contain the events in between.
