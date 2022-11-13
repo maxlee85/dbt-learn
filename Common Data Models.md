@@ -1,5 +1,5 @@
 #### Common data models
-- transactional fact table (retail)
+### transactional fact table (retail)
   - A transaction fact table is as described. For example, in a sales example, every transaction recorded at the point of sale.
   - <img width="655" alt="image" src="https://user-images.githubusercontent.com/77996369/198893291-7a495d06-50d7-4209-b2cd-e02093c19977.png">
 - factless fact table (retail)
