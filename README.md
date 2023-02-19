@@ -30,6 +30,9 @@ Run single model
 #### Common data modeling techniques
 - Retail (transactional fact table)
 <img width="655" alt="image" src="https://user-images.githubusercontent.com/77996369/198893291-7a495d06-50d7-4209-b2cd-e02093c19977.png">
+- Survey schema (responses fact)
+<img width="657" alt="image" src="https://user-images.githubusercontent.com/12355768/219972788-3e23945f-da16-4e8a-b683-8748f9d25a30.png">
+
 
 - Bridge tables
   - Traverse a hierarchy using a bridge table 
