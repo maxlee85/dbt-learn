@@ -34,5 +34,6 @@ Run single model
 - Bridge tables
   - Traverse a hierarchy using a bridge table 
   <img width="660" alt="image" src="https://user-images.githubusercontent.com/12355768/219972444-8604ea1e-cb73-4482-932e-8096af01ab68.png">
+  
   - Group multi value attributes into a single row
 
