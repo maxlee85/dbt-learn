@@ -27,7 +27,7 @@ Run single model
 - dbt run --select dim_products_scd4 (filename)
 - dbt seed --select orders (filename)
 
-#### Common data models
+#### Common data modeling techniques
 - Retail (transactional fact table)
 <img width="655" alt="image" src="https://user-images.githubusercontent.com/77996369/198893291-7a495d06-50d7-4209-b2cd-e02093c19977.png">
 
